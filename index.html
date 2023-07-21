@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CONVERSOR DE LONGITUD</title>
+        <link rel="stylesheet" href="style.css">
+        <script src= "./script.js" defer></script>
+    </head>
+
+    <body style= "background-color: black">
+        <div id="contenedor">
+            <div id="contImg">
+                <img src="http://gifgifs.com/animations/other-animations/stationery/Ruler_talks.gif" alt= "" srcset="">
+            </div>
+            <div id="convertidor">
+                <div class="contenido">
+                    <div class="h2">
+                        <h1 style="color: rgb(199, 40, 186)">CONVERSOR DE LONGITUD</h1>
+                        <h2 style= color:black>Complete todos los datos</h2>
+                        <input class="item" id="mts" color: red type="number" placeholder="introduce tu valor en mts" />
+                        <select id="select">
+                            <option value="cm">centimetro</option>
+                            <option value="dm">decimetro</option>
+                            <option value="km" selected>kilometros</option>
+                        </select>
+
+                        <button type='submit' class="item" id="convertir">Convertir</button>
+                        <span class="item" id="resultado" type="number" placeholder="km"></span>
+                        <div>
+                            <div class= "contenido">
+                                <h1>Asi Calculamos</h1>
+                                <ul>
+                                    <p> Si deseamos pasar nuestro valor de metros a kilometros multiplicaremos por 0.001,
+                                    <p>y si deseamos saber el valor en kilometros lo multiplicamos por 100 y por ultimo, </p> 
+                                    <p> si deseamos saber el valor en decimetros haremos la multiplicacion por 10. </p>
+                                </ul>
+                
+                        </div>
+                        <img src="http://radiopop.com.py/wp-content/uploads/2015/05/logo.jpg" id="logo"/>
+                        <audio controls="" preload="auto" autoplay="">
+                            <source src="https://rps1.radiopop.com.py:9433/stream" type="audio/mpeg">
+                        </audio>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
